@@ -1,0 +1,226 @@
+body		{
+			background-color: lightgray;
+		}
+		
+#header	{
+			font:bold 30px verdana, helvetica, sans-serif; 
+			background-color:black;
+			color:lightyellow;
+			text-align:center;
+			padding:20px;
+			padding-bottom:40px;
+		}
+		
+#purpose{
+			text-align: center;
+			width: 95%;
+		}
+		
+#nav 	{
+			line-height:30px;
+			background-color:gray;
+			height:645px;
+			width:150px;
+			float:left;
+			padding:5px;		
+		}
+
+#table	{
+			font:20px verdana, helvetica, sans-serif; 
+			background-color: black;
+			color:lightyellow;
+			text-align:center;
+			width: 100%;
+			padding-top:20px;
+			padding-bottom:50px;			
+			height: 433px;
+		}
+
+#rform	{
+			font:13px verdana, arial, sans-serif; 
+			background-color: black;
+			color:lightyellow;
+			text-align:left;
+			width: 37%;
+			padding-top:5px;
+			padding-bottom:65px;			
+			height: 410px;	
+			margin-left: 16%;
+		}
+
+#cartoon	{				
+				width: 45%;
+				margin-left:54%;
+				margin-top: -34%;
+				height: 400px;	
+			}
+#lang	{
+			font:16px verdana, arial, sans-serif; 
+			color:lightyellow;
+			background-color: black;			
+			text-align:center;
+			width: 37%;
+			padding-top:1px;
+			padding-right: 2px;
+			padding-left: 2px;
+			padding-bottom:60px;			
+			height: 410px;	
+			margin-left: 14%;
+		}
+		
+#numb	{
+			font:16px verdana, arial, sans-serif; 
+			color:lightyellow;
+			background-color: gray;	
+		}
+		
+#lib	{
+			width: 45%;
+			margin-left:54%;
+			margin-top: -33.5%;
+			height: 400px;	
+		}
+#link	{
+			padding: 2px;
+			margin-left:-2%;
+			background-color: lightgray;
+		}
+
+#contact {
+			font:16px verdana, arial, sans-serif; 
+			color:lightyellow;
+			background-color: black;			
+			text-align:left;
+			width: 37%;			
+			padding-bottom:60px;			
+			height: 445px;	
+			margin-left: 14%;
+		 }
+
+#comment {
+			font:16px verdana, arial, sans-serif; 
+			color:lightyellow;
+			background-color: black;			
+			text-align:left;
+		 }
+		 
+#proposal 	{
+				width: 45%;
+				margin-left:54%;
+				margin-top: -36%;			
+			}
+		
+#links	{
+			text-align: center;
+			text-indent: -110px;
+			color: blue;
+			font: italic 12px verdana, arial, sans-serif;			
+			margin-top:1%;
+		}
+			
+#pointDie1	{	
+				padding-left: 30%;
+				width: 75px; height: 75px;				
+			}
+
+#pointDie2	{	
+				width: 75px; height: 75px;				
+			} 			
+
+#rollDie1	{	
+				padding-left: 30%;
+				width: 75px; height: 75px;				
+			}
+
+#rollDie2	{	
+				width: 75px; height: 75px;				
+			}								
+
+#crapsVideo	{
+				text-align:center;
+				text-indent:-500px;
+				padding-top: 1%;
+				padding-left: 30%;
+			}	
+
+#point	{	
+			text-align:center;
+			text-indent:-270px;
+			color: red;
+			font:20px verdana, arial, sans-serif;
+			
+		}
+
+#pbrb	{			
+			padding-left: 42.5%;
+		}
+
+#play      {
+			font:20px verdana, arial, sans-serif;
+		}
+
+#roll      {
+			font:20px verdana, arial, sans-serif;
+		}
+
+#messages  {
+			text-align: center;
+			font:20px verdana, arial, sans-serif;
+			color: red;
+			text-indent:-250px;
+		  }			  
+
+input		{
+			font:13px verdana, arial, sans-serif; 
+			color:lightyellow;
+			background-color: black;
+		}
+		
+h1		{
+			font: bold italic 22px verdana, helvetica, sans-serif;
+			color:black;			
+		}
+		
+h2		{
+			font: bold 20px verdana, helvetica, sans-serif;
+			color: black;
+		}
+		
+h3		{
+			font: bold italic 20px verdana, helvetica, sans-serif;
+			color: black;
+		}	
+		
+h4		{
+			font: bold italic 20px verdana, helvetica, sans-serif;
+			color: black;
+			text-align: center;			
+		}
+
+h5		{
+			font: bold italic 20px verdana, helvetica, sans-serif;
+			color: lightyellow;
+			margin-left: 40%;			
+			width: 25%;			
+		}
+		
+img.clock1	{
+				background-color:black;
+				border-width: 3px;
+				padding-right: 25px;
+				padding-top: 5px;						
+			}
+		
+img.clock2	{
+				background-color:black;
+				border-width: 3px;
+				padding-left: 25px;
+				padding-top: 5px;						
+			}
+
+.tcenter 	{
+				margin-left: 40%;
+				margin-right: auto;
+				width: 25%;			
+			}
+		

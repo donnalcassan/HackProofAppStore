@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<!-- Fig. 9.7: dicount.html -->
+<!-- Craps game simulation. -->
+<html>
+<head>
+	<meta charset = "utf-8">
+	<title>Craps Game Simulation</title>
+	<link rel="stylesheet" type="text/css" href="istyles.css" media="all" />	
+	<script src="javaScript.js" type="text/javascript"></script>	
+</head>
+<body onload = "todaysdate()">
+	<div id="header">
+		<img class="smiley" src="smileyFace.jpg" alt="Smiley Face" width="50" height="50">
+		Welcome to the HackProof App Store <object width="175" height="50" data="480_myanaclock1.swf"></object>
+	</div>
+	
+	<div id="nav">		
+		<a href = "file:///C:/Users/Donna/Documents/DevryOnC/Webpage%20Development/Milestone5/index.html">Home
+		</a><br>
+		<a href = "file:///C:/Users/Donna/Documents/DevryOnC/Webpage%20Development/Milestone5/Registration.html">Register Here
+		</a><br>				
+		<a href = "file:///C:/Users/Donna/Documents/DevryOnC/Webpage%20Development/Milestone5/Login.html">Login		
+		</a><br>
+		<a href = "file:///C:/Users/Donna/Documents/DevryOnC/Webpage%20Development/Milestone5/CodeLibrary.html">Code Library
+		</a><br>
+		<a href = "file:///C:/Users/Donna/Documents/DevryOnC/Webpage%20Development/Milestone5/ContactUs.html">Contact Us		
+		</a><br>	
+	</div>
+	
+	<div id="purpose">
+		<p><h1>Our team can program anything!</h1></p>
+		<p><h2>Just tell us what you need and we will create it!</h2></p>
+		<p><h3>We always plan security into our code so you won't have to worry about it later!</h3></p>
+	</div>
+<div id = "discount">
+    <audio id = "dicerolling" preload = "auto">
+        <source src = "http://test.deitel.com/dicerolling.mp3" type = "audio/mpeg">
+        <source src = "http://test.deitel.com/dicerolling.ogg" type = "audio/ogg">
+        Browser does not support audio tag
+	</audio>
+	<div id = "p1">
+		<p id = "crapsVideo"><a href = "CrapsRules.html">Click here for a short video explaining the basic Craps rules</a></p>
+		<div id = "pointDiv">
+			 <p id = "point" class = "point">Point is:</p>
+			 <img id = "pointDie1" src = "blank.png"  
+				alt = "Die 1 of Point Value">
+			 <img id = "pointDie2" src = "blank.png"
+				alt = "Die 2 of Point Value">
+		</div>
+		<hr></hr>
+		<div class = "rollDiv">
+			 <img id = "rollDie1" src = "blank.png" 
+				alt = "Die 1 of Roll Value">				
+			 <img id = "rollDie2" src = "blank.png" 
+				alt = "Die 2 of Roll Value">
+		</div><br>
+			<form id = "pbrb" action = "#">
+				 <input id = "play" type = "button" value = "Play" onClick = "count()">
+				 <input id = "roll" type = "button" value = "Roll" disabled>
+			</form>
+		<div id = "mess">
+			<p id = "messages">Click Play to start the game</p>
+		</div>		
+	</div>
+</div>	
+	<input type="button" value="Hide text" onclick="document.getElementById('p1').style.visibility='hidden'">
+	<input type="button" value="Show text" onclick="document.getElementById('p1').style.visibility='visible'">
+	
+	<div id = "links"></div>
+</body>
+</html>
+
+<!-- 	ftp://websol.devry.edu/MIS577MAR64255/DCassan/Milestone5_Citrix
+		
+		http://websol.devry.edu/MIS577MAR64255/DCassan/Milestone5_Citrix/index.html
+**************************************************************************
+* (C) Copyright 1992-2012 by Deitel & Associates, Inc. and               *
+* Pearson Education, Inc. All Rights Reserved.                           *
+*                                                                        *
+* DISCLAIMER: The authors and publisher of this book have used their     *
+* best efforts in preparing the book. These efforts include the          *
+* development, research, and testing of the theories and programs        *
+* to determine their effectiveness. The authors and publisher make       *
+* no warranty of any kind, expressed or implied, with regard to these    *
+* programs or to the documentation contained in these books. The authors *
+* and publisher shall not be liable in any event for incidental or       *
+* consequential damages in connection with, or arising out of, the       *
+* furnishing, performance, or use of these programs.                     *
+**************************************************************************
+-->
